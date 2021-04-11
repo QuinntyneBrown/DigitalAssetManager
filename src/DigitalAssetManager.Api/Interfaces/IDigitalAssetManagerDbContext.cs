@@ -9,6 +9,6 @@ namespace DigitalAssetManager.Api.Interfaces
     {
         DbSet<DigitalAsset> DigitalAssets { get; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
-        
+
     }
 }

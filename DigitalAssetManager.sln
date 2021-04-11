@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E572FDD-549F-4A41-8295-60400BB25368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalAssetManager.Api", "src\DigitalAssetManager.Api\DigitalAssetManager.Api.csproj", "{C2CA70A8-2401-4331-A25B-37288AC8F488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalAssetManager.Api", "src\DigitalAssetManager.Api\DigitalAssetManager.Api.csproj", "{C2CA70A8-2401-4331-A25B-37288AC8F488}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{489682B4-1B6D-43DF-A6C0-421D97367F77}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		clisettings.json = clisettings.json
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C2CA70A8-2401-4331-A25B-37288AC8F488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,7 +37,13 @@ Global
 		{C2CA70A8-2401-4331-A25B-37288AC8F488}.Release|x86.ActiveCfg = Release|Any CPU
 		{C2CA70A8-2401-4331-A25B-37288AC8F488}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C2CA70A8-2401-4331-A25B-37288AC8F488} = {1E572FDD-549F-4A41-8295-60400BB25368}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EC368E0-17C2-4B87-B52C-F16383D118C4}
 	EndGlobalSection
 EndGlobal

@@ -11,7 +11,8 @@ namespace DigitalAssetManager.Api.Features
                 DigitalAssetId = digitalAsset.DigitalAssetId,
                 Bytes = digitalAsset.Bytes,
                 ContentType = digitalAsset.ContentType,
-                Name = digitalAsset.Name
+                Name = digitalAsset.Name,
+                Created = digitalAsset.Created
             };
         }
 

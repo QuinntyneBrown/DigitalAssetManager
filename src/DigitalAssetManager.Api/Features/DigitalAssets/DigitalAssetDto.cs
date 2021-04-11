@@ -8,5 +8,6 @@ namespace DigitalAssetManager.Api.Features
         public string Name { get; set; }
         public byte[] Bytes { get; set; }
         public string ContentType { get; set; }
+        public DateTime Created { get; set; }
     }
 }

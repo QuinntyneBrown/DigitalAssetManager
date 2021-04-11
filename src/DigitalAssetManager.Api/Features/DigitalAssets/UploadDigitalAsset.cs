@@ -72,7 +72,7 @@ namespace DigitalAssetManager.Api.Features
 
                                 digitalAsset = _context.DigitalAssets.SingleOrDefault(x => x.Name == name);
 
-                                if(digitalAsset == null)
+                                if (digitalAsset == null)
                                 {
                                     digitalAsset = new DigitalAsset();
                                     digitalAsset.Name = name;
